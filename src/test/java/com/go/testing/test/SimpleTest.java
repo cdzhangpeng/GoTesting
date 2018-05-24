@@ -1,7 +1,8 @@
-package cn.fh.pkgscanner.test;
+package com.go.testing.test;
 
-import cn.fh.pkgscanner.PkgScanner;
-import cn.fh.pkgscanner.test.annotation.Component;
+
+import com.go.testing.scanner.PkgScanner;
+import com.go.testing.test.annotation.Component;
 import org.junit.Assert;
 import org.junit.Test;
 
@@ -29,8 +30,8 @@ public class SimpleTest {
         PkgScanner scanner = new PkgScanner("cn.fh.pkgscanner.test", Component.class);
         List<String> list = scanner.scan();
 
-        Assert.assertTrue(list.indexOf("cn.fh.pkgscanner.test.SimpleTest") != -1);
-        Assert.assertTrue(list.indexOf("cn.fh.pkgscanner.test.CannotFindThis") == -1);
+        Assert.assertTrue(list.indexOf("SimpleTest") != -1);
+        Assert.assertTrue(list.indexOf("CannotFindThis") == -1);
 
     }
 }

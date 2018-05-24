@@ -1,4 +1,4 @@
-package cn.fh.pkgscanner;
+package com.go.testing.scanner;
 
 import java.io.File;
 import java.io.IOException;

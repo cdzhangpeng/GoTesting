@@ -1,4 +1,4 @@
-package cn.fh.pkgscanner.test;
+package com.go.testing.test;
 
 /**
  * Created by whf on 8/29/15.

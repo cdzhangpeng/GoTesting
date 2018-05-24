@@ -1,4 +1,4 @@
-package cn.fh.pkgscanner.test.annotation;
+package com.go.testing.test.annotation;
 
 import java.lang.annotation.*;
 
